@@ -1,0 +1,22 @@
+name: Varbase Media Base
+description: A base recipe to install core media modules and apply default Varbase media configurations including media library, focal point, and media types.
+type: Varbase Media
+install:
+  - media
+  - media_library
+  - file
+  - image
+  - breakpoint
+  - views
+  - better_exposed_filters
+  - crop
+  - dropzonejs_eb_widget
+  - embed
+  - focal_point
+  - media_bulk_upload
+  - media_bulk_upload_dropzonejs
+  - media_library_edit
+  - views_bulk_operations
+  - views_infinite_scroll
+  - views_bulk_edit
+  - webp
