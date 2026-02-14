@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_video_04_01
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_provider
+    - media.type.remote_video
+id: media.remote_video.media_video_04_01
+targetEntityType: media
+bundle: remote_video
+mode: media_video_04_01
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: hidden
+    settings:
+      max_width: 3600
+      max_height: 900
+    third_party_settings: {  }
+hidden:
+  created: true
+  feeds_item: true
+  field_provider: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

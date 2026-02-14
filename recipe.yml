@@ -10,6 +10,7 @@ install:
   - views
   - better_exposed_filters
   - crop
+  - drimage_improved
   - dropzonejs_eb_widget
   - embed
   - focal_point

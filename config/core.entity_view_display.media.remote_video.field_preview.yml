@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.field_preview
+    - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_provider
+    - image.style.field_preview
+    - media.type.remote_video
+  module:
+    - image
+id: media.remote_video.field_preview
+targetEntityType: media
+bundle: remote_video
+mode: field_preview
+content:
+  name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  feeds_item: true
+  field_media_oembed_video: true
+  field_provider: true
+  langcode: true
+  search_api_excerpt: true
+  uid: true
