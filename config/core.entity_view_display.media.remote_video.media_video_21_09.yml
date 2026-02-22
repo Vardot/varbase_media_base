@@ -18,6 +18,7 @@ content:
       max_width: 2100
       max_height: 900
     third_party_settings: {  }
+    weight: 0
 hidden:
   created: true
   feeds_item: true

@@ -25,6 +25,7 @@ content:
       width: 1400
       height: 788
     third_party_settings: {  }
+    weight: 0
 hidden:
   created: true
   langcode: true

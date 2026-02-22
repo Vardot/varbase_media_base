@@ -1,6 +1,11 @@
 name: Varbase Media Base
 description: A base recipe to install core media modules and apply default Varbase media configurations including media library, focal point, and media types.
 type: Varbase Media
+recipes:
+  - core/recipes/audio_media_type
+  - core/recipes/image_media_type
+  - core/recipes/local_video_media_type
+  - core/recipes/remote_video_media_type
 install:
   - media
   - media_library
@@ -14,6 +19,7 @@ install:
   - dropzonejs_eb_widget
   - embed
   - focal_point
+  - field_ui
   - media_bulk_upload
   - media_bulk_upload_dropzonejs
   - media_library_edit
@@ -21,3 +27,88 @@ install:
   - views_infinite_scroll
   - views_bulk_edit
   - webp
+  - varbase_media
+config:
+  actions:
+    core.entity_form_display.media.video.default:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image_focal_point
+          weight: 20
+          region: content
+          settings:
+            progress_indicator: throbber
+            preview_image_style: field_preview
+            preview_link: true
+            offsets: '50,50'
+          third_party_settings: {}
+    core.entity_view_display.media.video.default:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image
+          label: hidden
+          weight: 1
+          region: content
+          settings:
+            image_style: ''
+            image_link: ''
+            image_loading:
+              attribute: lazy
+          third_party_settings: {}
+    core.entity_form_display.media.remote_video.default:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image_focal_point
+          weight: 20
+          region: content
+          settings:
+            progress_indicator: throbber
+            preview_image_style: field_preview
+            preview_link: true
+            offsets: '50,50'
+          third_party_settings: {}
+    core.entity_view_display.media.remote_video.default:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image
+          label: hidden
+          weight: 1
+          region: content
+          settings:
+            image_style: ''
+            image_link: ''
+            image_loading:
+              attribute: lazy
+          third_party_settings: {}
+    core.entity_view_display.media.video.media_library:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image
+          label: hidden
+          weight: 1
+          region: content
+          settings:
+            image_style: medium
+            image_link: ''
+            image_loading:
+              attribute: lazy
+          third_party_settings: {}
+    core.entity_view_display.media.remote_video.media_library:
+      setComponent:
+        name: field_media_cover_image
+        options:
+          type: image
+          label: hidden
+          weight: 1
+          region: content
+          settings:
+            image_style: medium
+            image_link: ''
+            image_loading:
+              attribute: lazy
+          third_party_settings: {}

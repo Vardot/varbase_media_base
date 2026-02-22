@@ -32,6 +32,7 @@ content:
         image_style: null
       image_style: ''
     third_party_settings: {  }
+    weight: 0
 hidden:
   created: true
   feeds_item: true

@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.large
     - field.field.media.audio.field_media_audio_file
     - media.type.audio
   module:
     - file
-id: media.audio.default
+id: media.audio.large
 targetEntityType: media
 bundle: audio
-mode: default
+mode: large
 content:
   field_media_audio_file:
     type: file_audio
-    weight: 0
     label: visually_hidden
     settings:
       controls: true
@@ -21,6 +21,7 @@ content:
       loop: false
       multiple_file_display_type: tags
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   created: true

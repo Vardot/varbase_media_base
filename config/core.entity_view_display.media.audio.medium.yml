@@ -2,30 +2,27 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.media_video_04_03
-    - field.field.media.video.field_media_video_file
-    - media.type.video
+    - core.entity_view_mode.media.medium
+    - field.field.media.audio.field_media_audio_file
+    - media.type.audio
   module:
     - file
-id: media.video.media_video_04_03
+id: media.audio.medium
 targetEntityType: media
-bundle: video
-mode: media_video_04_03
+bundle: audio
+mode: medium
 content:
-  field_media_video_file:
-    type: file_video
-    label: hidden
+  field_media_audio_file:
+    type: file_audio
+    label: visually_hidden
     settings:
       controls: true
       autoplay: false
       loop: false
       multiple_file_display_type: tags
-      playsinline: true
-      muted: false
-      width: 1200
-      height: 900
     third_party_settings: {  }
     weight: 0
+    region: content
 hidden:
   created: true
   langcode: true

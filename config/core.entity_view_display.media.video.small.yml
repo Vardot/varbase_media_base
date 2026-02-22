@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.media_video_04_03
+    - core.entity_view_mode.media.small
     - field.field.media.video.field_media_video_file
     - media.type.video
   module:
     - file
-id: media.video.media_video_04_03
+id: media.video.small
 targetEntityType: media
 bundle: video
-mode: media_video_04_03
+mode: small
 content:
   field_media_video_file:
     type: file_video
@@ -20,10 +20,10 @@ content:
       autoplay: false
       loop: false
       multiple_file_display_type: tags
-      playsinline: true
+      playsinline: false
       muted: false
-      width: 1200
-      height: 900
+      width: 350
+      height: 197
     third_party_settings: {  }
     weight: 0
 hidden:

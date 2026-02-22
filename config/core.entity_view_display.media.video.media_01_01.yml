@@ -31,6 +31,7 @@ content:
         image_style: null
       image_style: ''
     third_party_settings: {  }
+    weight: 0
 hidden:
   created: true
   field_media_video_file: true
