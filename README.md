@@ -7,7 +7,6 @@ A base recipe to install core media modules and apply default Varbase media conf
 - Media library and media types (audio, file, gallery, image, remote video, video)
 - Focal point image cropping
 - Bulk media upload support with Dropzone
-- Image optimization and WebP support
 - Media library editing capabilities
 - Views integration for media management
 
