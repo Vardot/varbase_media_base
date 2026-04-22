@@ -22,6 +22,7 @@ install:
   - field_ui
   - media_bulk_upload
   - media_bulk_upload_dropzonejs
+  - media_library_form_element
   - media_library_edit
   - views_bulk_operations
   - views_infinite_scroll
