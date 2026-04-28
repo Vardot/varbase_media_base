@@ -28,5 +28,5 @@
     "drupal/focal_point": "~2",
     "drupal/varbase_media": "~11.0 || 11.0.x-dev"
   },
-  "version": "1.0.0-alpha1"
+  "version": "1.0.x-dev"
 }
