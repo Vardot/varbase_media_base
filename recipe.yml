@@ -28,8 +28,119 @@ install:
   - views_infinite_scroll
   - views_bulk_edit
   - varbase_media
+  - canvas
 config:
   actions:
+    core.entity_view_display.media.image.large:
+      setComponent:
+        name: field_media_image
+        options:
+          type: drimage_improved
+          label: hidden
+          settings:
+            image_link: ''
+            image_handling: scale
+            aspect_ratio:
+              width: '1'
+              height: '1'
+            background:
+              attachment: scroll
+              position: 'center center'
+              size: cover
+            image_loading:
+              attribute: lazy
+            iwc:
+              image_style: null
+            image_style: ''
+          third_party_settings: {}
+    core.entity_view_display.media.image.medium:
+      setComponent:
+        name: field_media_image
+        options:
+          type: drimage_improved
+          label: hidden
+          settings:
+            image_link: ''
+            image_handling: scale
+            aspect_ratio:
+              width: '1'
+              height: '1'
+            background:
+              attachment: scroll
+              position: 'center center'
+              size: cover
+            image_loading:
+              attribute: lazy
+            iwc:
+              image_style: null
+            image_style: ''
+          third_party_settings: {}
+    core.entity_view_display.media.image.small:
+      setComponent:
+        name: field_media_image
+        options:
+          type: drimage_improved
+          label: hidden
+          settings:
+            image_link: ''
+            image_handling: scale
+            aspect_ratio:
+              width: '1'
+              height: '1'
+            background:
+              attachment: scroll
+              position: 'center center'
+              size: cover
+            image_loading:
+              attribute: lazy
+            iwc:
+              image_style: null
+            image_style: ''
+          third_party_settings: {}
+    core.entity_view_display.media.image.full:
+      setComponent:
+        name: field_media_image
+        options:
+          type: drimage_improved
+          label: hidden
+          settings:
+            image_link: ''
+            image_handling: scale
+            aspect_ratio:
+              width: '1'
+              height: '1'
+            background:
+              attachment: scroll
+              position: 'center center'
+              size: cover
+            image_loading:
+              attribute: lazy
+            iwc:
+              image_style: null
+            image_style: ''
+          third_party_settings: {}
+    core.entity_view_display.media.image.original:
+      setComponent:
+        name: field_media_image
+        options:
+          type: drimage_improved
+          label: hidden
+          settings:
+            image_link: ''
+            image_handling: scale
+            aspect_ratio:
+              width: '1'
+              height: '1'
+            background:
+              attachment: scroll
+              position: 'center center'
+              size: cover
+            image_loading:
+              attribute: lazy
+            iwc:
+              image_style: null
+            image_style: ''
+          third_party_settings: {}
     core.entity_form_display.media.video.default:
       setComponent:
         name: field_media_cover_image
