@@ -7,8 +7,8 @@
 
 
 ### Remaining tasks
-- [x] File an issue about this recipe
-- [ ] Addition/Change/Update/Fix to this recipe
+- [x] File an issue about this project
+- [ ] Addition/Change/Update/Fix to this project
 - [ ] Testing to ensure no regression
 - [ ] Automated unit/functional testing coverage
 - [ ] Developer Documentation support on feature change/addition

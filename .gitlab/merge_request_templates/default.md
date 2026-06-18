@@ -1,6 +1,6 @@
-### Remaining tasks
-- [x] File an issue about this recipe
-- [x] Addition/Change/Update/Fix to this recipe
+### Checkpoints
+- [x] File an issue about this project
+- [x] Addition/Change/Update/Fix to this project
 - [ ] Testing to ensure no regression
 - [ ] Automated unit/functional testing coverage
 - [ ] Developer Documentation support on feature change/addition
