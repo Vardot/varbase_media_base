@@ -1,3 +1,5 @@
+[![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
+
 # Varbase Media Base
 
 A base recipe to install core media modules and apply default Varbase media configurations including media library, focal point, and media types.
