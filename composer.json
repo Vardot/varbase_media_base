@@ -17,7 +17,7 @@
     "source": "http://cgit.drupalcode.org/varbase_media_base"
   },
   "require": {
-    "drupal/core": "~11.3.0",
+    "drupal/core": "~11.4.0",
     "drupal/dropzonejs": "~2",
     "drupal/drimage_improved": "~1",
     "drupal/media_library_form_element": "~2.1.0",
