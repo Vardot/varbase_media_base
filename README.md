@@ -2,7 +2,7 @@
 
 # Varbase Media Base
 [![pipeline status](https://git.drupalcode.org/project/varbase_media_base/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_media_base/-/pipelines)
-[![Varbase Media Base](https://img.shields.io/badge/Varbase%20Media%20Base-1.0.0--alpha2-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_media_base/-/pipelines?ref=1.0.0-alpha2)
+[![Varbase Media Base](https://img.shields.io/badge/Varbase%20Media%20Base-1.0.0--beta1-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_media_base/-/pipelines?ref=1.0.0-beta1)
 [![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A base recipe to install core media modules and apply default Varbase media configurations including media library, focal point, and media types.

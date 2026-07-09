@@ -26,7 +26,7 @@
     "drupal/media_library_edit": "~3",
     "drupal/crop": "~2",
     "drupal/focal_point": "~2",
-    "drupal/varbase_media": "11.0.x-dev"
+    "drupal/varbase_media": "~11.0.0"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.0-beta1"
 }
