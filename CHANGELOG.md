@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-rc1] - 2026-08-15
+### Changed
+- Release the recipe with the Varbase 11.0.0-rc1 suite. No functional changes since 1.0.0-beta1.
+- Pin the `drupal/varbase_media` to `~11.0.0` dependency for the release.
+- Update the version badge to `1.0.0-rc1` in `README.md`.
+
 ## [1.0.0-beta1] - 2026-07-09
 ### Changed
 - Update Drupal Core from ~11.3.0 to ~11.4.0 in the Varbase Media Base recipe.
@@ -22,7 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Media Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-beta1...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-rc1...1.0.x
+[1.0.0-rc1]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-beta1...1.0.0-rc1
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-alpha2...1.0.0-beta1
 [1.0.0-alpha2]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-alpha1...1.0.0-alpha2
 [1.0.0-alpha1]: https://git.drupalcode.org/project/varbase_media_base/-/tags/1.0.0-alpha1
