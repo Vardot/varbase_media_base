@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-09-06
+### Changed
+- Release the Varbase Media Base recipe as stable 1.0.0 with the Varbase 11.0.0 suite.
+- Pin the `drupal/varbase_media` dependency to `~11.0.0` for the release.
+- Update the version badge to `1.0.0` in `README.md`.
+
 ## [1.0.0-rc2] - 2026-09-02
 ### Added
 - Require the `vardot/dropzone` library (`^5.9.3`), so the Dropzone files
@@ -37,7 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Media Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-rc2...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0...1.0.x
+[1.0.0]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-rc2...1.0.0
 [1.0.0-rc2]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-rc1...1.0.0-rc2
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-beta1...1.0.0-rc1
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_media_base/-/compare/1.0.0-alpha2...1.0.0-beta1
